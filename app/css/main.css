@@ -1,6 +1,9 @@
 .hidden {
   display: none;
 }
+.body{
+    overflow-x:hidden;
+}
 #menu-icon {
   width: 40px;
   text-align: center;
