@@ -71,7 +71,11 @@ function drawPointers(items){
         if (list){
             let pointer = document.createElement('div');
             pointer.className = "open-pointer";
-            items[i].insertBefore(pointer, list);
+            if (items[i].classList.contains("menu-item"))
+                items[i].insertBefore(pointer, list);
+            else
+                items[i].querySelector("a").appendChild(pointer);
+            
         }
     }
 }
