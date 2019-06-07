@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5.592" height="9.061" viewBox="0 0 5.592 9.061">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{stroke:#338ffa;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h9.061v5.591H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="_" class="cls-2" data-name="&gt;" transform="rotate(-90 4.531 4.53)">
+        <path id="_2" d="M156.7 367.6l4 4-4 4" class="cls-3" data-name="&gt;" transform="rotate(90 266.15 109.98)"/>
+    </g>
+</svg>

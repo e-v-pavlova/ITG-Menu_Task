@@ -1,0 +1,161 @@
+.hidden {
+  display: none;
+}
+#menu-icon {
+  width: 40px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #1c6799;
+  color: #1c6799;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+#menu-wrap {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  max-width: 414px;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+.top-bar {
+  padding: 17px 15px 0 54px;
+}
+.top-bar #search,
+.top-bar #menu-hider {
+  float: right;
+}
+.top-bar #menu-hider {
+  margin-left: 27px;
+}
+.top-bar #lang-menu {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.top-bar .lang {
+  list-style: none;
+  position: relative;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.54;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #313539;
+}
+.top-bar .ru:before,
+.top-bar .en:before,
+.top-bar .be:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -23px;
+  width: 16px;
+  height: 10.5px;
+  border-radius: 2px;
+  border: solid 1px #f1f8fe;
+}
+.top-bar .ru:before {
+  background: url('../img/flag.png') no-repeat;
+}
+.top-bar .en:before {
+  background: url('../img/flag.png') no-repeat;
+}
+.top-bar .be:before {
+  background: url('../img/flag.png') no-repeat;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#main-menu {
+  margin: 40px 15px 0 15px;
+  padding: 0;
+  list-style: none;
+}
+#main-menu ul {
+  margin: 0;
+  padding: 0;
+}
+#main-menu .menu-item {
+  position: relative;
+}
+#main-menu .menu-item li:first-of-type {
+  padding-top: 15px;
+}
+#main-menu li {
+  position: relative;
+  cursor: pointer;
+}
+#main-menu a {
+  padding: 14px 15px 14px 15px;
+}
+#main-menu li a {
+  padding: 12px 15px 12px 15px;
+  display: block;
+}
+#main-menu li,
+#main-menu a {
+  list-style: none;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #313539;
+}
+#main-menu li li,
+#main-menu li li a {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: normal;
+}
+#main-menu li li a {
+  padding: 8px 15px 8px 15px;
+}
+#main-menu li li li {
+  margin-left: 20px;
+  padding-left: 0;
+}
+.open-pointer {
+  width: 5.6px;
+  height: 9.1px;
+  background-image: url("../img/_.svg");
+  background-size: cover;
+  display: inline-block;
+  margin-left: 5px;
+}
+.close-pointer {
+  width: 9.1px;
+  height: 5.5px;
+  background: url("../img/_.png") no-repeat;
+  background-size: contain;
+  background-position-y: center;
+  display: inline-block;
+  margin-left: 5px;
+}
+.menu-item > .open-pointer {
+  position: absolute;
+  top: 17px;
+  right: 15px;
+  margin-left: 0;
+}
+.menu-item > .close-pointer {
+  position: absolute;
+  width: 5.6px;
+  height: 9.1px;
+  left: 0;
+  top: 17px;
+  background-image: url("../img/_l.png");
+  margin-left: 0;
+}
